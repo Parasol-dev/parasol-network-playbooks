@@ -1,0 +1,21 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parasol-network.switches
+  description: Network playbook for parasol org
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: parasol-dev/parasol-network-playbooks
+  links:
+    - url: https://devspaces.apps.y1a9e1j9r7y1i8l.cbm5.p1.openshiftapps.com/#https://github.com/parasol-dev/parasol-network-playbooks
+      title: Open in Ansible development workspaces
+      icon: web
+spec:
+  type: playbook-project
+  system: system:default/linux-systems
+  lifecycle: production
+  owner: user:default/anshulbehl
